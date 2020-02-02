@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Doppio+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Condiment&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import  'variables.scss';
+
+
+h1 {
+    font-family: 'Doppio', sans-serif;
+    text-transform: uppercase;
+    color: $color1;
+    text-align: center;
+}
+
+.name  {
+    font-family: 'Condiment', cursive;
+
+}
