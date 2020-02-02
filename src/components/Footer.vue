@@ -10,7 +10,7 @@
           </div>
       </div>
       <div class="footer__right">
-          <a href="mailto:mark@esg.com" class="links">CONTACT</a>
+          <a href="mailto:masstudio@earthlink.net" class="links">CONTACT</a>
       </div>
     </div>
     <div class="footer__bottom">
