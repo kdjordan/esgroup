@@ -98,7 +98,7 @@ export default {
 @import '../scss/variables.scss';
 
  .gallery {
-      margin: 4rem 0;
+      padding: 2rem 0;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -231,9 +231,11 @@ export default {
 }
 
 .column img {
+  cursor: pointer;
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

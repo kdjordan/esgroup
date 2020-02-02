@@ -6,6 +6,7 @@
         <h4>CONTACT</h4>
       <div class="artist__contact--container">
         <a href="mailto:cedarcaredio@gmail.com" class="artist__contact--email">cedarcaredio@gmail.com</a>
+        <div class="artist__contact--site"><a href="http://cedarcaredio.com">cedarcaredio.com</a></div>
       </div>
       </div>
       <div class="artist__top">
@@ -48,47 +49,77 @@ export default {
       modalActive: true,
       imgArr: [
           {
-          src: require('../assets/cedar/cedar-3.jpg'),
+          src: require('../assets/cedar/lotus-slab.jpg'),
           alt: 'cedar caredio eugene sculpture group',
           order: 0
         },
         {
-          src: require('../assets/cedar/new-salmon.png'),
+          src: require('../assets/cedar/solar-eagle.jpg'),
           alt: 'cedar caredio eugene sculpture group',
           order: 1
         },
         {
-          src: require('../assets/cedar/cedar-raven.jpg'),
+          src: require('../assets/cedar/mask-colored.jpg'),
           alt: 'cedar caredio eugene sculpture group',
           order: 2
         },
         {
-          src: require('../assets/cedar/Solar-Eagle.jpg'),
+          src: require('../assets/cedar/raven.jpg'),
           alt: 'cedar caredio eugene sculpture group',
           order: 3
         },
         {
-          src: require('../assets/cedar/cedar-owl-lg.jpg'),
+          src: require('../assets/cedar/stone-owl.jpg'),
           alt: 'cedar caredio eugene sculpture group',
           order: 4
         },
         {
-          src: require('../assets/cedar/owl-copy.jpg'),
+          src: require('../assets/cedar/new-salmon.png'),
           alt: 'cedar caredio eugene sculpture group',
           order: 5
         },
         {
-          src: require('../assets/cedar/entrance1.jpg'),
+          src: require('../assets/cedar/home-entrance.jpg'),
           alt: 'cedar caredio eugene sculpture group',
           order: 6
         },
         {
-          src: require('../assets/cedar/cedar-wine.png'),
+          src: require('../assets/cedar/totem-outside-tall.jpg'),
           alt: 'cedar caredio eugene sculpture group',
           order: 7
-        }
+        },
+        {
+          src: require('../assets/cedar/crane-disk.png'),
+          alt: 'cedar caredio eugene sculpture group',
+          order: 8
+        },
+        {
+          src: require('../assets/cedar/long-salmon.jpg'),
+          alt: 'cedar caredio eugene sculpture group',
+          order: 9
+        },
+        {
+          src: require('../assets/cedar/owl-copy.jpg'),
+          alt: 'cedar caredio eugene sculpture group',
+          order: 10
+        },
+        {
+          src: require('../assets/cedar/entrance.jpg'),
+          alt: 'cedar caredio eugene sculpture group',
+          order: 11
+        },
+        {
+          src: require('../assets/cedar/bear-head.jpg'),
+          alt: 'cedar caredio eugene sculpture group',
+          order: 12
+        },
+        {
+          src: require('../assets/cedar/bear-eagle-tall.jpg'),
+          alt: 'cedar caredio eugene sculpture group',
+          order: 13
+        },
       ],
-      rowStops:[[0,2],[2,4],[4,6],[6,8]]
+      rowStops:[[0,3],[3,6],[6,11],[11,14]]
     }
   },
   mounted () {

@@ -68,12 +68,12 @@
         <section class="artist">
             <div class="artist__inner row-reverse">
                 <div class="artist__inner--left">
-                    <img src="../assets/cedar/owl-copy.jpg" alt="">
+                    <img src="../assets/cedar/homepage.jpg" alt="">
                 </div>
                 <div class="artist__inner--right">
                     <div class="artist__inner--right--profile-img">
                         <h2>Cedar Caredio</h2>
-                        <img src="../assets/cedar/cedar-profile-sm.jpg" alt="">
+                        <img src="../assets/cedar/profile-sm.jpg" alt="">
                     </div>
                     <div>
                         <h3>::&nbsp;MATERIALS&nbsp;::</h3>
