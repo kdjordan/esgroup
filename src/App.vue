@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <Header />
       <div class="page-view">
         <transition name="testfade" mode="out-in">
