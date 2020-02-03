@@ -1,7 +1,7 @@
 <template>
   <div class="header">
       <div class="header__left">
-          <a href="/esg"><img src="~../assets/svg/esg-logo.svg" alt="eugene sculpure group logo" class="logo"></a>
+          <a href="/"><img src="~../assets/svg/esg-logo.svg" alt="eugene sculpure group logo" class="logo"></a>
           
           
       </div>

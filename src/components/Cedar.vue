@@ -1,5 +1,6 @@
 <template>
 <div>
+
   <div class="artist" v-if="modalActive">
       <h2 class="artist__title">Cedar Caredio</h2>
       <div class="artist__contact">
@@ -7,6 +8,7 @@
       <div class="artist__contact--container">
         <a href="mailto:cedarcaredio@gmail.com" class="artist__contact--email">cedarcaredio@gmail.com</a>
         <div class="artist__contact--site"><a href="http://cedarcaredio.com">cedarcaredio.com</a></div>
+        <div class="artist__contact--phone">541.913.6751</div>
       </div>
       </div>
       <div class="artist__top">
@@ -21,6 +23,11 @@
         </div>
         <div class="artist__top--right">
           <img src="../assets/cedar/profile.jpg" alt="mark andrew eugene sculpture group">
+          <div class="podcast">
+            Cedar was recently featured on the EUGcast Podcast.<br> 
+            He talks about his process and gives some insights into his history as well.
+            <a href="https://eugcast.com/cedar-caredio/" target="_blank"><div class="podcast__button">LISTEN</div></a>   
+            </div>
         </div>
       </div>
     </div>
@@ -132,5 +139,44 @@ export default {
 
 <style lang="scss">
 @import '../scss/artist.scss';
+@import '../scss/variables.scss';
+
+.podcast {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  border: 1px solid $color1;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.7);
+
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+
+  &__button {
+    cursor: pointer;
+    margin: 0 auto;
+    padding: .3rem 0;
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    background: $color1;
+    width: 30%;
+    border-radius: 5px;
+    transition: all .4s ease;
+
+
+    &:hover {
+      background: transparent;
+      box-shadow: 0px 0px 0px 2px #ec7a5c inset;
+      color: $color1;
+    }
+
+    &:hover a {
+      color: $color1;
+    }
+  }
+}
 
 </style>
