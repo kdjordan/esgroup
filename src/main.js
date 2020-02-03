@@ -13,7 +13,7 @@ Vue.use(Vuerouter)
 
 
 const routes = [
-  {path: '/', component: Home},
+  {path: '/esg', component: Home},
   {path: '/mark', component: Mark},
   {path: '/cedar', component: Cedar},
   {path: '/randy', component: Randy}
