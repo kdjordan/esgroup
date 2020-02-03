@@ -20,7 +20,6 @@ const routes = [
 ]
 
 const router = new Vuerouter({
-  mode: 'history',
   routes
 })
 
