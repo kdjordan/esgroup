@@ -1,7 +1,9 @@
 <template>
   <div class="header">
       <div class="header__left">
-          <a href="/esg"><img src="../assets/svg/esg-logo.png" alt="eugene sculpure group logo" class="logo"></a>
+          <a href="/esg"><img src="../assets/svg/esg-logo-compress.svg" alt="eugene sculpure group logo" class="logo"></a>
+          
+          </a>
           
           
       </div>
@@ -25,6 +27,7 @@ export default {
 .logo {
     margin-left: 1.3rem;
     transition: all .4s ease;
+    
 
     &:hover {
         filter: opacity(50%);
@@ -65,7 +68,7 @@ export default {
     
     &__left {
         & img {
-            width: 100%;
+            width: 250px;
             margin: 0 auto;
 
             @media(max-width: 700px) {
