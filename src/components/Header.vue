@@ -23,12 +23,9 @@ export default {
 .logo {
     margin-left: 1.3rem;
     transition: all .4s ease;
-    
-
     &:hover {
         filter: opacity(50%);
     }
-
 }
 
 .header {
