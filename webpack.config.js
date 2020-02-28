@@ -1,11 +1,13 @@
 var path = require('path')
 var webpack = require('webpack')
+var PrerenderSpaPlugin = require('prerender-spa-plugin') 
+var HtmlWebpackPlugin = require('html-webpack-plugin') 
 
 module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/esg/dist/',
+    publicPath: '/',
     filename: 'build.js'
   },
   module: {
@@ -95,6 +97,30 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: '"production"'
       }
     }),
+    new HtmlWebpackPlugin({
+      template: 'index.html',
+      filename: path.resolve(__dirname, 'dist/index.html')
+    }),
+    new PrerenderSpaPlugin(
+      // Absolute path to compiled SPA
+      path.resolve(__dirname, './dist'),
+      // List of routes to prerender
+      [ '/esg', '/mark', '/cedar', '/randy' ],
+      {
+        postProcessHtml: function (context) {
+          var titles = {
+            '/esg': 'EGS Home',
+            '/mark': 'Mark Andrew',
+            '/cedar': 'Cedar Caredio',
+            '/randy': 'Rrandy Ortiz'
+          }
+          return context.html.replace(
+            /<title>[^<]*<\/title>/i,
+            '<title>' + titles[context.route] + '</title>'
+          )
+        }
+      }
+    ),
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: true,
       compress: {
