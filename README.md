@@ -8,7 +8,7 @@ I redesigned the site from scratch, implementing hooper.js for the homepage sild
 I rolled my own repsonsive image grid for each of the artists, using some images that they had provided.  
 I also rolled my own modal slideshow.  
 Some of the images I shot myself.  
-From there I used Adbobe Lightroom to spice all the images up a bit.  
+From there, I used Adbobe Lightroom to spice all the images up a bit.  
 
 ### ScreenShot
 ![Eugene Sculpture Group](https://github.com/kdjordan/esgroup/blob/master/esg-screenshot.png)
