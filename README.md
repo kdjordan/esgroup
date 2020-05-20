@@ -1,6 +1,6 @@
 # Eugene Sculpture Group
 
-> A Client Vue.js project for an artis collective in Eugene, Oregon
+> A Client Vue.js project for an artist collective in Eugene, Oregon
 
 I developed this site to replace a super slow WP site.  
 The site is hosted on a basic shared server - so the WP site was not performant at all.  
