@@ -1,12 +1,15 @@
-# Outbound Properties
+# Eugene Sculpture Group
 
-> A Client Vue.js project for a new development in NE Portland Oregon
+> A Client Vue.js project for an artis collective in Eugene, Oregon
 
-This site is still under development.  
-I am waiting on content to fill in the dummy text that I have provided.  
-I designed the logo and the layout of the site and am participating in the marketing copy.  
-Permits are being pulled, and it's looking like the team will be moving dirt early Summer 2020
+I developed this site to replace a super slow WP site.  
+The site is hosted on a basic shared server - so the WP site was not performant at all.  
+I redesigned the site from scratch, implementing hooper.js for the homepage silder.  
+I rolled my own repsonsive image grid for each of the artists, using some images that they had provided.
+I also rolled my own modal slideshow.  
+Some of the images I shot myself.  
+From there I used Adbobe Lightroom to spice all the images up a bit.  
 
 ### ScreenShot
-![Outbound Props Screeshot](https://github.com/kdjordan/outbound/blob/master/outbound-screenshot.png)
+![Eugene Sculpture Group](https://github.com/kdjordan/esgroup/blob/master/esg-screenshot.png)
 
