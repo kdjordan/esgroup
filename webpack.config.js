@@ -109,7 +109,7 @@ if (process.env.NODE_ENV === 'production') {
       {
         postProcessHtml: function (context) {
           var titles = {
-            '/esg': 'EGS Home',
+            '/': 'EGS Home',
             '/mark': 'Mark Andrew',
             '/cedar': 'Cedar Caredio',
             '/randy': 'Rrandy Ortiz'
