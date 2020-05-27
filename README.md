@@ -10,6 +10,9 @@ I also rolled my own modal slideshow.
 Some of the images I shot myself.  
 From there, I used Adbobe Lightroom to spice all the images up a bit.  
 
+### Visit Live
+[Mental Math](https://kevinjordan.dev/math/)
+
 ### ScreenShot
 ![Eugene Sculpture Group](https://github.com/kdjordan/esgroup/blob/master/esg-screenshot.png)
 
